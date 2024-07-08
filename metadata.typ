@@ -1,18 +1,16 @@
 // NOTICE: Copy this file to your root folder.
 
 /* Personal Information */
-#let firstName = "John"
+#let firstName = "Sofiane"
 
-#let lastName = "Doe"
+#let lastName = "Djerbi"
 
 #let personalInfo = (
-  github: "mintyfrankie",
-  phone: "+33 6 12 34 56 78",
-  email: "john.doe@me.org",
-  linkedin: "johndoe",
+  phone: "+33 695 800 269",
+  email: "contact@sofianedjerbi.com",
+  linkedin: "sofianedjerbi",
   //custom-1: (icon: "", text: "example", link: "https://example.com"),
   //gitlab: "mintyfrankie",
-  //homepage: "jd.me.org",
   //orcid: "0000-0000-0000-0000",
   //researchgate: "John-Doe",
   //extraInfo: "",
@@ -21,25 +19,22 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Experienced Data Analyst looking for a full time job starting from now],
-  "en": [Experienced Data Analyst looking for a full time job starting from now],
+  "": [5+ years AWS-certified Cloud Professional seeking full-time role in Geneva, starting from now.],
+  "en": [5+ years AWS-certified Cloud Professional seeking full-time role in Geneva, starting from now.],
   "fr": [Analyste de données expérimenté à la recherche d'un emploi à temps plein
     disponible dès maintenant],
-  "zh": [具有丰富经验的数据分析师，随时可入职],
 )
 
 #let cvFooterInternational = (
   "": "Curriculum vitae",
   "en": "Curriculum vitae",
   "fr": "Résumé",
-  "zh": "简历",
 )
 
 #let letterFooterInternational = (
   "": "Cover Letter",
   "en": "Cover Letter",
   "fr": "Lettre de motivation",
-  "zh": "申请信",
 )
 
 #let nonLatinOverwriteInfo = (

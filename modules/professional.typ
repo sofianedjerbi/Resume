@@ -1,6 +1,6 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Professional Experience")
+#cvSection("Experience")
 
 #cvEntry(
     title: [Director of Data Science],

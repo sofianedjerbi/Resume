@@ -4,12 +4,12 @@
 
 #cvSkill(
   type: [Languages],
-  info: [English #hBar() French #hBar() Chinese]
+  info: [English (C1) #hBar() French (Native)]
 )
 
 #cvSkill(
   type: [Tech Stack],
-  info: [Tableau #hBar() Python (Pandas/Numpy) #hBar() PostgreSQL]
+  info: [Azure | AWS | CI/CD | DevOps | Terraform | Kubernetes | Docker | Linux | Git | Cloud Security | Python]
 )
 
 #cvSkill(
