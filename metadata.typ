@@ -21,8 +21,7 @@
 #let headerQuoteInternational = (
   "": [5+ years AWS-certified Cloud Professional seeking full-time role in Geneva, starting from now.],
   "en": [5+ years AWS-certified Cloud Professional seeking full-time role in Geneva, starting from now.],
-  "fr": [Analyste de données expérimenté à la recherche d'un emploi à temps plein
-    disponible dès maintenant],
+  "fr": [5+ ans d'expérience et certifié AWS, recherche un poste dans le domaine du Cloud à Genève. Disponible immédiatement.],
 )
 
 #let cvFooterInternational = (
@@ -49,7 +48,7 @@
 
 #let profilePhoto = "../src/avatar.png" // Leave blank if profil photo is not needed
 
-#let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
+#let varLanguage = "fr"
 
 #let varEntrySocietyFirst = false // Decide if you want to put your company in bold or your position in bold
 
@@ -57,4 +56,21 @@
 
 #let ifAIInjection = false // Decide if you want to inject AI prompt or not
 
-#let keywordsInjectionList = ("Data Analyst", "GCP", "Python", "SQL", "Tableau",) // Leave blank if you don't want to inject keywords
+#let keywordsInjectionList = (
+    "AWS", "Azure", "GCP", "EC2", "S3", "Lambda", "DynamoDB", "RDS", "CloudFormation",
+    "Kubernetes", "Docker", "Terraform", "Ansible", "Jenkins", "GitLab CI/CD",
+    "Python", "Java", "Kotlin", "JavaScript", "TypeScript", "Go", "Rust", "C++",
+    "Node.js", "React", "Spring Boot", "Django", "Flask",
+    "MongoDB", "PostgreSQL", "Redis", "Elasticsearch",
+    "Git", "GitHub", "Bitbucket", "Jira",
+    "Microservices", "RESTful APIs", "GraphQL",
+    "SQL", "NoSQL", "Tableau", "Power BI",
+    "Prometheus", "Grafana", "ELK Stack",
+    "Agile", "Scrum", "CI/CD", "DevOps",
+    "Serverless", "Containerization", "Infrastructure as Code",
+    "Linux", "Unix", "Bash", "PowerShell",
+    "Machine Learning", "Big Data", "Data Analytics",
+    "Cloud-native", "Scalability", "High Availability",
+    "Continuous Integration", "Continuous Deployment",
+    "Microservices Architecture", "Event-Driven Architecture"
+)

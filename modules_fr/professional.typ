@@ -1,36 +1,87 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Expérience Professionnelle")
+#cvSection("Expérience")
 
 #cvEntry(
-    title: [Directeur de la Science des Données],
-    society: [XYZ Corporation],
-    date: [2020 - Présent],
-    location: [San Francisco, CA],
+    title: [Ingénieur R&D Microservices | Expert Kotlin/Android],
+    society: [Ingenico],
+    date: [Oct 2023 - Présent],
+    location: [Valence, France (Hybride)],
     description: list(
-      [Diriger une équipe de scientifiques et d'analystes de données pour développer et mettre en œuvre des stratégies axées sur les données, développer des modèles prédictifs et des algorithmes pour soutenir la prise de décisions dans toute l'organisation],
-      [Collaborer avec la direction pour identifier les opportunités d'affaires et stimuler la croissance, mettre en œuvre les meilleures pratiques en matière de gouvernance, de qualité et de sécurité des données],
+        [Développé des bibliothèques Android avec *Kotlin Multiplatform (KMM)* pour terminaux de paiement],
+        [Architecturé des microservices, améliorant significativement la fiabilité du système],
+        [Mentoré l'équipe sur les bonnes pratiques *Java/Kotlin*, augmentant la productivité],
     )
 )
 
 #cvEntry(
-    title: [Analyste de Données],
-    society: [ABC Company],
-    date: [2017 - 2020],
-    location: [New York, NY],
+    title: [Architecte Cloud E-commerce | Développeur Java/Kotlin],
+    society: [Fiverr],
+    date: [Juin 2023 - Oct 2023],
+    location: [Grenoble, France (Télétravail)],
     description: list(
-      [Analyser de grands ensembles de données à l'aide de SQL et Python, collaborer avec des équipes interfonctionnelles pour identifier des insights métier],
-      [Créer des visualisations de données et des tableaux de bord à l'aide de Tableau, développer et maintenir des pipelines de données à l'aide d'AWS],
+        [Construit une plateforme e-commerce avec *AWS ECS* et *Fargate*, gérant des centaines de micro-transactions quotidiennes],
+        [Optimisé les requêtes *DynamoDB* pour améliorer les performances en scénarios de forte charge],
+        [Créé des tableaux de bord avec *Amazon QuickSight* pour l'analyse des ventes en temps réel],
     )
 )
 
 #cvEntry(
-    title: [Stagiaire en Analyse de Données],
-    society: [PQR Corporation],
-    date: [été 2017],
-    location: [Chicago, IL],
+    title: [Architecte Performance Cloud | Développeur Java/Go],
+    society: [Kaiiju],
+    date: [Jan 2023 - Oct 2023],
+    location: [Grenoble, France (Télétravail)],
     description: list(
-      [Aider à la préparation, au traitement et à l'analyse de données à l'aide de Python et Excel, participer aux réunions d'équipe et contribuer à la planification et à l'exécution de projets],
-      [Développer des visualisations et des rapports de données pour communiquer des insights aux parties prenantes, collaborer avec d'autres stagiaires et membres de l'équipe pour mener à bien les projets dans les délais impartis et avec une grande qualité],
+        [Architecturé l'infrastructure et la plateforme cloud, réduisant les coûts de 25% pour un service de jeu à fort trafic],
+        [Conçu un algorithme de compression comme *microservice Go*, réduisant les fichiers de stockage *S3* d'environ 90%],
+        [Développé un système serverless avec *Lambda* et *DynamoDB* pour les achats in-game],
+    )
+)
+
+#cvEntry(
+    title: [Ingénieur DevOps Cloud | Administrateur Système],
+    society: [Kugge],
+    date: [Août 2021 - Oct 2023],
+    location: [Grenoble, France (Hybride)],
+    description: list(
+        [Conçu des architectures cloud pour hébergeurs, améliorant significativement la disponibilité du système],
+        [Implémenté l'IaC avec *CloudFormation* et *EKS* pour des déploiements optimisés],
+        [Développé une solution de sauvegarde avec *S3 Glacier*, réduisant les coûts annuels de sauvegarde de 60%],
+    )
+)
+
+#cvEntry(
+    title: [Architecte Logiciel Cloud | Développeur Java/Go],
+    society: [Fiverr],
+    date: [Jan 2022 - Juil 2022],
+    location: [Grenoble, France (Télétravail)],
+    description: list(
+        [Développé une plateforme d'optimisation d'élevage utilisant des algorithmes génétiques avancés et des modèles statistiques],
+        [Créé un backend *Java Spring Boot* avec frontend *React* pour une interface éleveur conviviale],
+        [Implémenté une base de données *PostgreSQL* pour un stockage et une récupération efficaces des données d'élevage],
+    )
+)
+
+#cvEntry(
+    title: [Ingénieur R&D Sécurité Embarquée | Développeur C++/Python],
+    society: [CEA],
+    date: [Déc 2021 - Juin 2022],
+    location: [Grenoble, France (Sur site)],
+    description: list(
+        [Conçu un outil de surveillance d'attaques par rayons X en *C++* et *Python* pour la sécurité des microcontrôleurs],
+        [Servi comme *développeur principal*, guidant l'équipe et assurant l'atteinte efficace des jalons du projet],
+        [Développé une *API REST* pour l'analyse de la mémoire RAM et Flash dans les systèmes embarqués],
+    )
+)
+
+#cvEntry(
+    title: [Développeur Java | Analyste Performance],
+    society: [Fiverr],
+    date: [Juin 2019 - Jan 2021],
+    location: [Grenoble, France (Télétravail)],
+    description: list(
+        [Créé un système d'optimisation des performances en *Java 11* pour une plateforme e-learning],
+        [Implémenté des tests unitaires complets avec *JUnit* pour assurer la fiabilité du code],
+        [Mis en place un pipeline CI/CD robuste avec *Jenkins*, *Docker*, et *BitBucket*, automatisant les cycles de build, test et déploiement],
     )
 )

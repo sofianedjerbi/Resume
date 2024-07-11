@@ -6,5 +6,4 @@
   #autoImport("professional")
   #autoImport("certificates")
   #autoImport("education")
-  #autoImport("publications")
 #cvFooter()
