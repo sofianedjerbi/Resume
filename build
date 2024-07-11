@@ -4,4 +4,4 @@ sed -i.bak "s/#let varLanguage = \".*\"/#let varLanguage = \"$language\"/" metad
 
 echo "Language set to '$language' in metadata.typ"
 
-typst compile ./cv.typ ./output/CV.pdf --font-path ./src/fonts/
+typst compile ./cv.typ ./output/CV$1.pdf --font-path ./src/fonts/
